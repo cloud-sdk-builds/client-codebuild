@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-codebuild`](https://www.npmjs.com/package/@aws-sdk/client-codebuild/v/3.1102.0).
+[`@aws-sdk/client-codebuild`](https://www.npmjs.com/package/@aws-sdk/client-codebuild/v/3.1103.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-codebuild - [https://cloud-sdk-builds.github.io/?sdk=client-codebuild](https://cloud-sdk-builds.github.io/?sdk=client-codebuild)
-- @aws-sdk/client-codebuild v3.1102.0 - [https://cloud-sdk-builds.github.io/?sdk=client-codebuild&version=3.1102.0](https://cloud-sdk-builds.github.io/?sdk=client-codebuild&version=3.1102.0)
+- @aws-sdk/client-codebuild v3.1103.0 - [https://cloud-sdk-builds.github.io/?sdk=client-codebuild&version=3.1103.0](https://cloud-sdk-builds.github.io/?sdk=client-codebuild&version=3.1103.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codebuild@3.1102.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codebuild@3.1103.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-zxLmaItcb5V/jQkRY9ktKRF/9I8uBIpJ/YDycLtbrwJKpv+Whz7V26JSPUO67VT1
+sha384-msWKLIWiLEW2rqwgyAiwLEmWtR+7YQk6Tl5RKO75BMQkv/B2fvKe31sXbVEikZvs
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-codebuild": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codebuild@3.1102.0/index.min.mjs"
+            "@aws-sdk/client-codebuild": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codebuild@3.1103.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codebuild@3.1102.0/index.min.mjs": "sha384-zxLmaItcb5V/jQkRY9ktKRF/9I8uBIpJ/YDycLtbrwJKpv+Whz7V26JSPUO67VT1"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codebuild@3.1103.0/index.min.mjs": "sha384-msWKLIWiLEW2rqwgyAiwLEmWtR+7YQk6Tl5RKO75BMQkv/B2fvKe31sXbVEikZvs"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-codebuild": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codebuild@3.1102.0/index.min.mjs"
+                        "@aws-sdk/client-codebuild": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codebuild@3.1103.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codebuild@3.1102.0/index.min.mjs": "sha384-zxLmaItcb5V/jQkRY9ktKRF/9I8uBIpJ/YDycLtbrwJKpv+Whz7V26JSPUO67VT1"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codebuild@3.1103.0/index.min.mjs": "sha384-msWKLIWiLEW2rqwgyAiwLEmWtR+7YQk6Tl5RKO75BMQkv/B2fvKe31sXbVEikZvs"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1102.0`)
+* Always pin to a specific version (`@3.1103.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-codebuild/blob/refs/tags/3.1102.0/LICENSE
+https://github.com/cloud-sdk-builds/client-codebuild/blob/refs/tags/3.1103.0/LICENSE
 ```
 
 ---
